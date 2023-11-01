@@ -11,8 +11,8 @@ function areTheyEqual(array_a, array_b){
   if (array_a.length !== array_b.length) return false;
   
   // sort both arrays
-  const sorted_a = array_a.sort(sortNum);
-  const sorted_b = array_b.sort(sortNum);
+  const sorted_a = [...array_a].sort(sortNum);
+  const sorted_b = [...array_b].sort(sortNum);
   
   // loop over array_a and check for corresponding value in array_b
   for (let i = 0; i <= sorted_a.length; i += 1) {
