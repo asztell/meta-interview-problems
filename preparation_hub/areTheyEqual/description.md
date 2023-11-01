@@ -4,7 +4,7 @@ Given two arrays A and B of length N, determine if there is a way to make A equa
 
 Signature
 
-bool areTheyEqual(int[] arr_a, int[] arr_b)
+```bool areTheyEqual(int[] arr_a, int[] arr_b)```
 
 Input
 
